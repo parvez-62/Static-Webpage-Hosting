@@ -80,7 +80,9 @@ Go to the CodePipeline console.
 
 -Deploy and Verify
 
-![Screenshot (32)](https://github.com/user-attachments/assets/5b4cfa05-1a04-499c-b2f0-f2ae847fa52a)
+
+![Screenshot (32)](https://github.com/user-attachments/assets/da173580-734a-4de8-9b63-d2fee246e969)
+
 
 
 -Commit changes to the GitHub repository.
