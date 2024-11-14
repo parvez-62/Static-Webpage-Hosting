@@ -8,7 +8,8 @@ Setup Instructions
 Go to the S3 console in AWS.
 
 Create a new bucket with a unique name (e.g., my-static-website-bucket).
-image-1
+![Screenshot (20)](https://github.com/user-attachments/assets/3ab800bf-1910-4029-b235-635c3e5ba01b)
+
 
 Upload a html file in my-static-website-bucket.
 image2
