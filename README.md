@@ -26,7 +26,7 @@
 ![image](https://github.com/user-attachments/assets/bfa2c44b-3aa1-4b0d-9c8b-a3f465cf72ab)
 
 
-**.**Set Up CloudFront
+**2**Set Up CloudFront
 
 
 -In the CloudFront console, create a new CloudFront distribution.
