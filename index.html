@@ -11,11 +11,24 @@
             padding: 0;
             background-color: #f4f4f4;
             text-align: center;
+            overflow: hidden;
         }
         header {
-            background: #333;
+            background: linear-gradient(45deg, #ff416c, #ff4b2b);
             color: white;
-            padding: 20px;
+            padding: 50px;
+            font-size: 24px;
+            position: relative;
+        }
+        @keyframes fadeIn {
+            0% { opacity: 0; transform: scale(0.8); }
+            100% { opacity: 1; transform: scale(1); }
+        }
+        .animated-name {
+            font-size: 40px;
+            font-weight: bold;
+            color: #fff;
+            animation: fadeIn 2s ease-in-out;
         }
         section {
             padding: 20px;
@@ -49,7 +62,7 @@
 </head>
 <body>
     <header>
-        <h1>Parvez Musharaf</h1>
+        <div class="animated-name">PARVEZ MUSHARAF</div>
         <p>AWS DevOps Engineer | Automation | Cloud Solutions</p>
     </header>
     <section>
@@ -84,9 +97,9 @@
             <h2>Projects</h2>
             <ul>
                 <li><a href="https://github.com/parvez-62/Static-Webpage-Hosting" target="_blank">Static Webpage Hosting with AWS S3 & CloudFront</a></li>
-                <li><a href="#">Terraform S3 Automator: Static Website Hosting Automation</a></li>
-                <li><a href="#">Dockerized Apache Web Hosting</a></li>
-                <li><a href="#">Jenkins Web Hosting Automation</a></li>
+                <li><a href="https://github.com/parvez-62/Terraform-S3-Automator" target="_blank">Terraform S3 Automator: Static Website Hosting Automation</a></li>
+                <li><a href="https://github.com/parvez-62/Dockerized-Apache-Web-Hosting" target="_blank">Dockerized Apache Web Hosting</a></li>
+                <li><a href="https://github.com/parvez-62/Jenkins-Web-Hosting-Automation" target="_blank">Jenkins Web Hosting Automation</a></li>
                 <li><a href="#">Multi-Region AWS Deployment with Disaster Recovery</a></li>
                 <li><a href="#">Automated Web Hosting with Jenkins & Ansible</a></li>
             </ul>
@@ -96,12 +109,12 @@
         <div class="container">
             <h2>Certifications</h2>
             <ul>
-                <li>AWS Academy Cloud Architecture - AWS Training</li>
-                <li>AWS Academy Cloud Foundation - AWS Training</li>
-                <li>AWS Certified Cloud Practitioner - Udemy</li>
-                <li>AWS Certified Solutions Architect Associate - Udemy</li>
-                <li>AWS Solutions Architect Associate - Karnataka German Technical Training Institute</li>
-                <li>Cloud Administrator - Way2Wingz Pvt. Ltd.</li>
+                <li><a href="#">AWS Academy Cloud Architecture - AWS Training</a></li>
+                <li><a href="#">AWS Academy Cloud Foundation - AWS Training</a></li>
+                <li><a href="#">AWS Certified Cloud Practitioner - Udemy</a></li>
+                <li><a href="#">AWS Certified Solutions Architect Associate - Udemy</a></li>
+                <li><a href="#">AWS Solutions Architect Associate - Karnataka German Technical Training Institute</a></li>
+                <li><a href="#">Cloud Administrator - Way2Wingz Pvt. Ltd.</a></li>
             </ul>
         </div>
     </section>
